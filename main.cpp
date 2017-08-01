@@ -138,7 +138,7 @@ int main(int argc, char *argv[]) {
 				pkt_data[0], pkt_data[1], pkt_data[2],
 				pkt_data[3], pkt_data[4], pkt_data[5]);
 			printf("\t ------------------------------------------ \n");
-			break;
+			return 0;
 		}
 	}
 	return 0;
